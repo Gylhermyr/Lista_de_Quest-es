@@ -1,3 +1,27 @@
+//Questão 7
+
+/*#include <stdio.h>
+
+int main() {
+    float a = 0.0, b = 0.0, c =0.0;
+    printf("Digite um numero. \n");
+    scanf("%f", &a);
+    printf("Digite outro numero. \n");
+    scanf("%f", &b);
+    printf("Digite outro numero. \n");
+    scanf("%f", &c);
+    if(a>b && a>c){
+        printf("%.2f é o maior numero. \n", a);
+    }
+    if(b>a && b>c){
+        printf("%.2f é o maior numero. \n", b);
+    }
+    if(c>a && c>b){
+        printf("%.2f é o maior numero. \n", c);
+    }
+    return 0;
+}*/
+
 //Questão 28
 
 /*#include <stdio.h>
