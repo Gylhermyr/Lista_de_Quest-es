@@ -84,3 +84,36 @@ int main() {
     printf ("Meu nome é %s, tenho %d anos e moro em %s. Meu número de telefone é %d.", nome, idade, endereco, telefone);
     return 0;
 }*/
+
+//Questão 44
+
+/*#include <stdio.h>
+
+int main() {
+    float a = 0.0, b = 0.0, c =0.0;
+    printf("Digite um numero. \n");
+    scanf("%f", &a);
+    printf("Digite outro numero. \n");
+    scanf("%f", &b);
+    printf("Digite outro numero. \n");
+    scanf("%f", &c);
+    if(a>b && a>c && b>c){
+        printf("%.2f é o maior numero, %.2f é maior que %.2f, ficando em uma ordem decrescente de %.2f, %.2f e %.2f. \n", a, b, c, a, b, c);
+    }
+    else if(a>b && a>c && c>b){
+        printf("%.2f é o maior numero, %.2f é maior que %.2f, ficando em uma ordem decrescente de %.2f, %.2f e %.2f. \n", a, c, b, a, c, b);
+    }
+    else if(b>a && b>c && a>c){
+        printf("%.2f é o maior numero, %.2f é maior que %.2f, ficando em uma ordem decrescente de %.2f, %.2f e %.2f. \n", b, a, c, b, a, c);
+    }
+    else if(b>a && b>c && c>a){
+        printf("%.2f é o maior numero, %.2f é maior que %.2f, ficando em uma ordem decrescente de %.2f, %.2f e %.2f. \n", b, c, a, b, c, a);
+    }
+    else if(c>a && c>b && a>b){
+        printf("%.2f é o maior numero, %.2f é maior que %.2f, ficando em uma ordem decrescente de %.2f, %.2f e %.2f. \n", c, a, b, c, a, b);
+    }
+    else if(c>a && c>b && b>a){
+        printf("%.2f é o maior numero, %.2f é maior que %.2f, ficando em uma ordem decrescente de %.2f, %.2f e %.2f. \n", c, b, a, c, b, a);
+    }
+    return 0;
+}*/
